@@ -1,0 +1,108 @@
+/* IMPORT FONTS SECTION */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+/* STYLE SECTION */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(189, 166, 142, 1);
+}
+
+a {
+  color: rgb(29, 27, 42);
+}
+
+a:active {
+  color: rgb(100, 51, 136);
+}
+
+header {
+  padding: 10px;
+  font-family: Merriweather, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(47, 117, 181, 0.73);
+}
+
+.navigation-bar {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: rgba(47, 117, 181, 0.73);
+}
+
+nav {
+  margin: 0 10%;
+  padding: 10px;
+  border-top: 2px solid rgb(21, 69, 119);
+  text-align: center;
+  font-size: 20px;
+  font-family: Josefin Sans, sans-serif;
+}
+
+nav > a {
+  padding: 0 20px;
+}
+
+section {
+  float: right;
+  margin-bottom: 5px;
+  width: 78%;
+}
+
+section > article {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(155, 186, 153);
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+article > h2 {
+  font-family: Raleway, sans-serif;
+}
+
+article > p {
+  margin: 10px;
+  font-family: Raleway, sans-serif;
+  text-align: justify;
+}
+
+.menu {
+  float: left;
+  margin: 10px 0;
+  margin-left: 10px;
+  width: 20%;
+  border: 3px solid rgb(84, 27, 27);
+  color: rgb(0, 0, 0);
+  background-color: rgba(47, 117, 181, 0.42);
+  font-family: Josefin Sans, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.menu > h3 {
+  margin: 5px;
+  border-bottom: 2px solid black;
+}
+
+.menu > ul {
+  margin: 10px;
+}
+
+.menu > ul > li {
+  margin: 10px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: rgba(47, 117, 181, 0.37);
+  border-top: 1px solid black;
+}
