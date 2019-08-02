@@ -12,6 +12,9 @@
 
 body {
   background-color: rgba(189, 166, 142, 1);
+
+  /* background: -webkit-linear-gradient(top, #FFFFFF, #006699); */
+  /* background: -moz-linear-gradient(30deg, #FFFFFF, #006699); */
 }
 
 a {
