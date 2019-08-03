@@ -58,6 +58,34 @@ section {
   width: 78%;
 }
 
+.publicate {
+  /* display: inline-inline-block; */
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(155, 186, 153);
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+}
+
+/* .publicate textarea {
+  display: flow-root;
+} */
+
+#publication_textarea {
+  /* margin-left: 20%; */
+  /* display: inline; */
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  resize: vertical;
+  font-family: Raleway, sans-serif;
+  text-align: justify;
+  /* align-content: center; */
+}
+
 section > article {
   margin: 10px;
   padding: 10px;

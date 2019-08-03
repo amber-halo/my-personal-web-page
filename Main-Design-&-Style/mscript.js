@@ -8,4 +8,4 @@ function addElement() {
   currentArt.appendChild(newArt);
 }
 
-addElement();
+// addElement();
