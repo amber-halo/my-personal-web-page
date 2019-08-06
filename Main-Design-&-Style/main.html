@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/4501888ce8.js"></script>
     <title>My Personal Webpage</title>
     <link rel="stylesheet" href="mstyle.css">
   </head>
@@ -22,23 +23,42 @@
 
     <section id="articles">
       <div class="publicate">
-        <form class="" action="main.html" method="post">
+
+        <h2>Publicate</h2>
+
+        <form class="publication_form" action="main.html" method="post">
           <!-- Name:<br>
           <input type="text" name="pName"><br>
           Text:<br>
           <input type="text" name="pText"><br> -->
 
-          <textarea id="publication_textarea" name="publication_text" rows="8" cols="100" placeholder="Write something here..."></textarea>
+          <!-- <input type="text" name="title" value="button" id="input_title"> -->
 
-          <div class="buttons">
-            <div class="extras">
-              
-            </div>
+          <textarea id="input_title" name="title_text" rows="1" cols="80" placeholder="Your title here..."></textarea>
 
-            <div class="add">
+          <div class="publication_div">
+              <textarea id="publication_textarea" name="publication_text" rows="8" cols="100" placeholder="Write something here..."></textarea>
 
-            </div>
+              <div class="buttons">
+                <div class="extras">
+
+                </div>
+
+                <div class="add">
+                  <!-- <p>+</p> -->
+                  <button type="button" name="button">
+                    <!-- <img src="Extras/right-arrow2.png" alt=""> -->
+                    <!-- <i class=""></i> -->
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </button>
+
+                  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                </div> -->
+              </div>
           </div>
+
         </form>
       </div>
 
